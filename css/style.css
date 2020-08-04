@@ -1,9 +1,9 @@
 
-
+/*nav css*/
 .navbar {
-    /*box-sizing: border-box;*/
+    
     background-color: #bbbdc9;
-    height:100px;  
+    height:10vh;  
     display: grid;
     grid-template-columns: 60% 40%;
     border-style:solid;  
@@ -14,35 +14,99 @@
     color:black;
     margin: 0;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 10vh;
     text-decoration: none;
     font-size: 20px;
 }
-img{
-    padding-top: 5px;
+.navbar img{
+    display:inline-block;
+    vertical-align: middle;
+    height:9vh;
     padding-left: 5px;
 
-    
-}
-h1{
-    color:red;
 }
 ul {
-    display: inline;
-    padding-left: 20%;
+    /*left:7px;*/
+    position: relative;
+    display: block;
     list-style: none;
+    padding:0;
+    margin:0px;
 }
 .navbar li {
-    
+    padding:0px;
     text-align: center;
     display: inline-block;
-    width:200px;
-
-    
+    width:49%;
 }
-
-
 
 ul li:hover {
 background: #90CAF9;
+}
+/*container css*/
+.container{
+    position: relative;
+    width:100%;
+    height:130vh;
+    padding: 0 0 0;
+    background-color: red;
+}
+.centerimg{
+    position: relative;
+
+    width:80%;
+    margin-left:10%;
+    top: 5%;
+    height: 60vh;
+    background-color: aqua;
+}
+.introbox{
+    top:25%;
+    margin-left: 25%;
+    width:50%;
+    height:50%;
+    background-color:green;
+    position: relative;
+    /*box-sizing: border-box;*/
+    
+}
+
+.infobutton{
+    width:30%;
+    margin-left:35%;
+    background-color: royalblue;
+    margin-bottom: 10px;
+    
+}
+
+/*products*/
+.products{
+    
+    display:block;
+    position: relative;
+    top:15%;
+    height:10%;
+}
+#h2padding{
+    padding-left: 10%;
+}
+
+.imgBox{
+    padding-left:15%;
+    position: relative;
+
+
+}
+
+/*footer*/
+#footer{
+    bottom:0px;
+
+    overflow: visible;
+}
+#contactLink{
+    position: relative;
+    left:30%;
+    width:40%;
+    background-color: darkgoldenrod;
 }
