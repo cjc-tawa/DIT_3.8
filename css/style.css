@@ -89,10 +89,10 @@ background: #90CAF9;
     
 }
 .imgBoxRow{
-    padding-left:30%;
+    padding-left:2%;
     display:grid;
-    grid-template-columns: 20% 20%;
-    grid-column-gap: 10%;
+    grid-template-columns: 20% 20% 20% 40% ;
+
     grid-template-rows:20% 20% ;
     grid-row-gap: 2%;
     
@@ -113,7 +113,7 @@ background: #90CAF9;
 
 
 #h2padding{
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .imgBox{
