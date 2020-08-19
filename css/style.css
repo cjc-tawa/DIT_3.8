@@ -1,4 +1,6 @@
-
+body{
+    background-color: #e2dbdb;
+}
 /*nav css*/
 .navbar {
     
@@ -65,18 +67,25 @@ background: #90CAF9;
     margin-left: 25%;
     width:50%;
     height:50%;
-    background-color:green;
+    background-color:#5a9e55;
     position: relative;
     /*box-sizing: border-box;*/
     
 }
 
 .infobutton{
+    line-height:5vh;
     width:30%;
     margin-left:35%;
-    background-color: royalblue;
+    background-color: white;
     margin-bottom: 10px;
     
+}
+.introbox a{
+    text-decoration: none;
+}
+.infobutton p:hover{
+    background-color: #e2dbdb;
 }
 
 /*products*/
