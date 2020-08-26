@@ -82,16 +82,19 @@ background: #90CAF9;
 }
 .infobutton{
     
-    line-height:5vh;
-    width:30%;
-    margin-left:35%;
-    background-color: white;
     
+    /*width:30%;*/
+    /*margin-left:35%;*/
+    background-color: white;
+    padding-top: -10%;
     color:black;
     
 }
 .introbox a{
-    
+    line-height:5vh;
+    margin-left:34%;
+    margin-right:34%;
+    display:block;
     text-decoration: none;
 }
 .infobutton p:hover{
@@ -150,6 +153,13 @@ background: #90CAF9;
     left:30%;
     width:40%;
     background-color: darkgoldenrod;
+}
+#contactLink a{
+    line-height:5vh;
+    margin-left:34%;
+    margin-right:34%;
+    display:block;
+    text-decoration: none;
 }
 h2{
     font-family: 'Noto Sans HK', sans-serif;
