@@ -69,7 +69,7 @@ background: #90CAF9;
     margin-left: 25%;
     width:50%;
     height:50%;
-    background-color:#5a9e55;
+    background-color:#477998;
     position: relative;
     /*box-sizing: border-box;*/
     
@@ -148,7 +148,7 @@ background: #90CAF9;
     position: relative;
     left:30%;
     width:40%;
-    background-color: #5a9e55;
+    background-color: #F64740;
 }
 #contactLink a{
     line-height:5vh;
@@ -159,17 +159,17 @@ background: #90CAF9;
     padding-bottom: 4%;
 }
 h2{
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:2.5vw;
 }
 p{
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.3vw;
 }
 li{
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .imgBoxColumn ul li{
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.3vw;
 }
