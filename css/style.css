@@ -1,13 +1,17 @@
-
+body{
+    background-color: #e2dbdb;
+}
 /*nav css*/
 .navbar {
     
-    background-color: #bbbdc9;
+    background-color: #e2dbdb;
     height:10vh;  
     display: grid;
     grid-template-columns: 60% 40%;
+    /*
     border-style:solid;  
-    border-width: 2px;
+    border-width: 2px;*/
+    
 }
 
 .navbar a{
@@ -21,11 +25,11 @@
 .navbar img{
     display:inline-block;
     vertical-align: middle;
-    height:9vh;
+    height:12vh;
     padding-left: 5px;
 
 }
-ul {
+.navbar ul {
     /*left:7px;*/
     position: relative;
     display: block;
@@ -40,24 +44,24 @@ ul {
     width:49%;
 }
 
-ul li:hover {
+.navbar ul li:hover {
 background: #90CAF9;
 }
 /*container css*/
 .container{
     position: relative;
     width:100%;
-    height:130vh;
+    height:190vh;
     padding: 0 0 0;
-    background-color: red;
+    background-color: #e2dbdb;
 }
 .centerimg{
     position: relative;
 
     width:80%;
     margin-left:10%;
-    top: 5%;
-    height: 60vh;
+    
+    height: 80vh;
     background-color: aqua;
 }
 .introbox{
@@ -65,34 +69,49 @@ background: #90CAF9;
     margin-left: 25%;
     width:50%;
     height:50%;
-    background-color:green;
+    background-color:#5a9e55;
     position: relative;
     /*box-sizing: border-box;*/
     
 }
-
+.introtext{
+    top:20%;
+    height: 50%;
+    position: relative;
+    margin-bottom: 12vh;
+}
 .infobutton{
-    width:30%;
-    margin-left:35%;
-    background-color: royalblue;
-    margin-bottom: 10px;
     
+    
+    /*width:30%;*/
+    /*margin-left:35%;*/
+    background-color: white;
+    padding-top: -10%;
+    color:black;
+    
+}
+.introbox a{
+    line-height:5vh;
+    margin-left:34%;
+    margin-right:34%;
+    display:block;
+    text-decoration: none;
+}
+.infobutton p:hover{
+    background-color: #e2dbdb;
 }
 
 /*products*/
 .products{
-    
     display:block;
     position: relative;
-    top:15%;
+    top:10%;
     height:50vh;
-    
 }
 .imgBoxRow{
     padding-left:2%;
     display:grid;
     grid-template-columns: 20% 20% 20% 40% ;
-
     grid-template-rows:20% 20% ;
     grid-row-gap: 2%;
     
@@ -109,29 +128,48 @@ background: #90CAF9;
 
 
 
-
-
-
 #h2padding{
-    padding-left: 5%;
+    padding-left: 2.5%;
 }
 
 .imgBox{
     padding-left:15%;
     position: relative;
 
-
 }
 
 /*footer*/
 #footer{
-    bottom:0px;
-
+    top:20px;
+    padding-bottom: 20px;
     overflow: visible;
 }
 #contactLink{
     position: relative;
     left:30%;
     width:40%;
-    background-color: darkgoldenrod;
+    background-color: #5a9e55;
+}
+#contactLink a{
+    line-height:5vh;
+    margin-left:34%;
+    margin-right:34%;
+    display:block;
+    text-decoration: none;
+    padding-bottom: 4%;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:2.5vw;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+}
+.imgBoxColumn ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
 }
