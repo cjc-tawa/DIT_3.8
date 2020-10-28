@@ -23,14 +23,28 @@
         </ul>
     </div>
 </div>
-<div class="container" margin-top='10px'>
-    <div class="about_main">
-        <div class="about_column"><h2>Our buisness</h2><p>We are a group of Year 13 students running a sustainable business under the YES organisation,
-             Our vision for our business is to improve our carbon footprint to negate the effects of deforestation,
-             we are aiming to bring more native life to our area and to the whole of New Zealand. </p></div>
-        <div class="about_column"></div>
-        <div class="about_column"></div>
-    </div>
+<div class="container">
+    <div id="login_form" class="modal"> <!--Stores code for the login form-->
+        <div class = "login_box">
+          <h1>Not Login</h1> 
+          <form method = "POST" action = "send_info.php">
+            <p>First name</p>
+            <input type = "text" name = "username" placeholder="Please enter your username" id="username">
+            <p>Last name</p>
+            <input type = "text" name = "password" placeholder="Please enter your password" id="password">
+            <p>Email</p>
+            <input type = "text" name = "username" placeholder="Please enter your username" id="username">
+            <p>Phone number</p>
+            <input type = "number" name = "username" placeholder="segfsgfsf" id="username">
+            <p>Extra information</p>
+            <input type = "text" name = "username" placeholder="segfsgfsf" id="username">
+            <p>Submit</p> 
+            <input type = "submit" name = "submit" value= "Login">
+            
+            <p id="loginform_message"> </p>
+          </form>
+        </div>
+      </div>
 </div>
 
 </body>
