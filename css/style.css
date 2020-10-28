@@ -54,6 +54,7 @@ background: #90CAF9;
     height:190vh;
     padding: 0 0 0;
     background-color: #e2dbdb;
+    margin-top:20px;
 }
 .centerimg{
     position: relative;
@@ -172,4 +173,19 @@ li{
 .imgBoxColumn ul li{
     font-family: 'Roboto', sans-serif;
     font-size: 1.3vw;
+}
+
+/*about page*/
+.about_main {
+    padding: 2vh;
+    height:80%;
+    background-color: #5a9e55;
+    padding-left:2%;
+    display:grid;
+    grid-template-columns: 40% 20% 20% ;
+    grid-template-rows:50%;
+    grid-row-gap: 2%;
+}
+.about_column{
+    flex:50%;
 }
