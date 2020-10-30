@@ -24,22 +24,41 @@
     </div>
 </div>
 <div class="container">
-    <div id="login_form" class="modal"> <!--Stores code for the login form-->
-        <div class = "login_box">
-          <h1>Not Login</h1> 
+    <div id="info_form" class="modal"> <!--Stores code for the login form-->
+        <div class = "info_box">
+          <h1>Personal information </h1> 
           <form method = "POST" action = "send_info.php">
-            <p>First name</p>
-            <input type = "text" name = "username" placeholder="Please enter your username" id="username">
-            <p>Last name</p>
-            <input type = "text" name = "password" placeholder="Please enter your password" id="password">
-            <p>Email</p>
-            <input type = "text" name = "username" placeholder="Please enter your username" id="username">
-            <p>Phone number</p>
-            <input type = "number" name = "username" placeholder="segfsgfsf" id="username">
-            <p>Extra information</p>
-            <input type = "text" name = "username" placeholder="segfsgfsf" id="username">
-            <p>Submit</p> 
-            <input type = "submit" name = "submit" value= "Login">
+            <div class="info_main">
+                <div class="info_column">
+                    <p>First name</p>
+                    <input type = "text" name = "username" placeholder="Please enter your username" id="username">
+                    <p>Last name</p>
+                    <input type = "text" name = "password" placeholder="Please enter your password" id="password">
+                    <p>Email</p>
+                    <input type = "text" name = "username" placeholder="Please enter your username" id="username">
+                    <p>Phone number</p>
+                    <input type = "number" name = "username" placeholder="segfsgfsf" id="username">
+                    <p>Extra information</p>
+                    <input type = "text" name = "username" placeholder="segfsgfsf" id="username">
+                </div>
+                <div class="info_column">
+                    <p>Margaret Hebe quantity</p>
+                    <input type = "number" name = "quantity" placeholder="quantity" id="Margaret Hebe">
+                    <p>Hebe Evenosa quanity</p>
+                    <input type = "number" name = "quantity" placeholder="quantity" id="Hebe Evenosa">
+                    <p>Hebe Odora quanity</p>
+                    <input type = "number" name = "quantity" placeholder="quantity" id="Hebe Odora">
+                    
+                    <input type = "submit" name = "submit" value= "Send">
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
             
             <p id="loginform_message"> </p>
           </form>
