@@ -187,27 +187,30 @@ li{
 .about_main {
     padding: 2vh;
     height:80%;
-    background-color: #5a9e55;
+    background-color: rgb(151, 150, 150);
     padding-left:2%;
     display:grid;
-    grid-template-columns: 40% 20% 20% ;
+    grid-template-columns: 60% 40% ;
     grid-template-rows:50%;
     grid-row-gap: 2%;
 }
 .about_column{
     flex:50%;
 }
+.about_column p{
+    font-size: 1.6vw;
+}
 /*styling the info form*/
 .info_box{
     left:10vw;
     width: 80vw;    
-    height: 60vh;
+    height: 80vh;
     background-color: var(--scolor);
-    color: white;
+    color: black;
     position: absolute;
     box-sizing: border-box;
     padding: 5vh 3vh;
-    background-color: black;
+    background-color: rgb(151, 150, 150);
 }
 
 .info_box h1{
@@ -232,7 +235,7 @@ li{
   
   .info_box input[type = "text"], input[type = "password"]{
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: none;
     height: 40px;
