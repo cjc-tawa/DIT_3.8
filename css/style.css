@@ -65,6 +65,10 @@ background: #90CAF9;
     background-size:cover;
     height: 80vh;
 }
+/*
+#filter{
+    
+}*/
 .introbox{
     top:25%;
     margin-left: 25%;
@@ -124,7 +128,10 @@ background: #90CAF9;
 .imgBoxRow img{
     margin-top: 8px;
     vertical-align: middle;
-    /*padding-right: 10%;*/
+    filter: opacity(.8);
+    border: 2px solid black;
+    filter: brightness(0.8);
+
 }
 
 
