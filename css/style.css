@@ -65,18 +65,20 @@ background: #90CAF9;
     background-size:cover;
     height: 80vh;
 }
-/*
 #filter{
-    
-}*/
+    filter: brightness(01);
+    filter: contrast(2);
+    filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+}
 .introbox{
-    top:25%;
-    margin-left: 25%;
-    width:50%;
-    height:50%;
+    top:15vh;
+    z-index:2;
+    margin-left: 30%;
+    width:40vw;
+    height:45vh;
     background-color:#5a9e55;
     
-    position: relative;
+    position: absolute;
     /*box-sizing: border-box;*/
     
 }
@@ -180,7 +182,7 @@ h3{
 }
 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
 }
 li{
     font-family: 'Roboto', sans-serif;
